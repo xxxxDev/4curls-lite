@@ -1,0 +1,11 @@
+{
+  "extDescription": {
+    "message": "Copy URLs in readable Chinese instead of garbled text. Nothing else changes. V-AX (v-ax.com)"
+  },
+  "copied": {
+    "message": "Copied to clipboard:"
+  },
+  "copyFailed": {
+    "message": "Couldn't copy the URL. Click the page, then try again."
+  }
+}

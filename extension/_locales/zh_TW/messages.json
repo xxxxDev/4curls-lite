@@ -1,0 +1,11 @@
+{
+  "extDescription": {
+    "message": "一鍵複製中文網址，貼上不會變亂碼，其他都不動。V-AX (v-ax.com)"
+  },
+  "copied": {
+    "message": "已複製網址到剪貼簿:"
+  },
+  "copyFailed": {
+    "message": "無法複製網址。請先點一下網頁再試一次。"
+  }
+}

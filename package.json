@@ -1,0 +1,8 @@
+{
+  "name": "4curls-lite",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "package": "sh scripts/package.sh"
+  }
+}
