@@ -50,12 +50,20 @@
 - **有意義的編碼字元會保留。** `%26` 維持原樣，因為換成 `&` 會改變連結的去向。空格維持 `%20`。
 - **瀏覽器自己的頁面不會動作。** `chrome://` 和 Chrome 線上應用程式商店不允許擴充功能執行。
 
-## 隱私
+## 隱私與權限
 
-4cUrls Lite 沒有伺服器，也沒有使用分析。它只在瀏覽器裡讀取目前網頁的網址，不會儲存，也不會傳到任何地方。詳見 [SECURITY.md](SECURITY.md)。
+4cUrls Lite 沒有伺服器，也沒有使用分析。它只在瀏覽器裡讀取目前網頁的網址，不會儲存，也不會傳到任何地方。它會在你開啟的網頁上執行一小段程式，而且只在你按下圖示後才寫入剪貼簿。詳見 [SECURITY.md](SECURITY.md)。
+
+隱私相關問題，請寄信到 [support@v-ax.com](mailto:support@v-ax.com)。
+
+## 參與貢獻
+
+想回報問題或提出修改，見 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
 ## 授權
 
-程式碼採 [MIT 授權](LICENSE)。圖示不在此授權內，見 [BRAND.md](BRAND.md)。
+程式碼以 [MIT License](LICENSE) 釋出。圖示不在此授權內，見 [BRAND.md](BRAND.md)。
+
+4cUrls Lite 是獨立專案，並非由 Google 製作，也與其沒有關係或背書。Chrome 是 Google LLC 的商標。
 
 由 [V-AX](https://v-ax.com) 製作。

@@ -50,12 +50,20 @@ The browser may ask once per site for permission to use the clipboard.
 - **Encoded characters that carry meaning stay encoded.** `%26` stays as it is, because a real `&` would change where the link goes. Spaces stay as `%20`.
 - **It doesn't run on browser pages.** `chrome://` pages and the Chrome Web Store don't allow extensions to run.
 
-## Privacy
+## Privacy and permissions
 
-4cUrls Lite has no server and no analytics. It reads the address of the current page inside your browser, and it doesn't store it or send it anywhere. See [SECURITY.md](SECURITY.md).
+4cUrls Lite has no server and no analytics. It reads the address of the current page inside your browser, and it doesn't store it or send it anywhere. It runs a small script on the pages you open, and it writes to the clipboard only after you click the icon. See [SECURITY.md](SECURITY.md).
+
+For questions about privacy, email [support@v-ax.com](mailto:support@v-ax.com).
+
+## Contributing
+
+To report a bug or suggest a change, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
 The code is under the [MIT License](LICENSE). The icon isn't: see [BRAND.md](BRAND.md).
+
+4cUrls Lite is an independent project. It is not made by, affiliated with or endorsed by Google. Chrome is a trademark of Google LLC.
 
 Made by [V-AX](https://v-ax.com).
